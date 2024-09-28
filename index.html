@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebGL 2D Rectangle - Alternative</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .buttons {
+            margin-top: 20px;
+        }
+
+        button {
+            margin: 5px;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="glCanvas" width="600" height="400"></canvas>
+    <div class="buttons">
+        <button id="green">Color 1</button>
+        <button id="blue">Color 2</button>
+        <button id="yellow">Color 3</button>
+        <button id="red">Reset Color</button>
+    </div>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
